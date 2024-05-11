@@ -1,0 +1,18 @@
+.navlink:hover{
+    border-bottom: 2px solid black;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    animation: lr 0.5s linear 0.2s infinite alternate ;
+    -webkit-animation: lr 0.5s linear 0.2s infinite alternate ;
+}
+@keyframes lr {
+    to{
+        border-bottom-width: 5px solid black;
+    }
+    from{
+        border-bottom-width: 10px solid black;
+    }
+}

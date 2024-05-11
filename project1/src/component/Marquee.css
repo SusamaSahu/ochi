@@ -1,0 +1,29 @@
+.marquee{
+    background-color: #004d43;
+    padding: 10px 0;
+    gap: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.text{
+   
+    border-top: 2px solid rgb(249, 244, 244);
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    gap: 10px;
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: aliceblue;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    align-items: center;
+}
+   

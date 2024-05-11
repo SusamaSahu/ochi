@@ -1,0 +1,62 @@
+.landing{
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 2vw;
+    margin-top: 4vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    
+}
+.masker{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.landing h1{
+    font-size: 7.6vw;
+    font-weight: bold;
+    color: black;
+    line-height: 120%;
+    text-transform: uppercase;
+   
+}
+.box{
+    background-color: green;
+    height: 5.2vw;
+    width: 7.9vw;
+    position: relative;
+    top: 0.3vw;
+    align-items: center;
+}
+.hrline{
+    margin-top: 10rem;
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+.part{
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.part button{
+    text-transform: uppercase;
+    border: 2px solid rgb(75, 73, 73);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 0 0.6rem;
+}
+.part button:hover{
+    background-color: black;
+    color:white;
+    border: 2px solid black;
+}
